@@ -1,0 +1,50 @@
+{
+  "author": "John Ferlito <johnf@inodes.org> (http://inodes.org)",
+  "bugs": {
+    "url": "https://github.com/echohubio/echohub-alexa-sdk/issues"
+  },
+  "dependencies": {
+    "deepmerge": "^2.0.1",
+    "got": "^8.0.1",
+    "promise-chain-timeout-rejection": "^1.1.0"
+  },
+  "description": "EchoHub Alexa Skill Lambda SDK",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-minify-webpack-plugin": "^0.2.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.1",
+    "eslint": "^4.9.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-import": "^2.7.0",
+    "webpack": "^3.10.0",
+    "webpack-monitor": "^1.0.14",
+    "webpack-node-externals": "^1.6.0"
+  },
+  "homepage": "https://github.com/echohubio/echohub-alexa-sdk#readme",
+  "keywords": [
+    "echohub",
+    "alexa",
+    "lambda"
+  ],
+  "license": "ISC",
+  "main": "dist/index.js",
+  "module": "src/index.js",
+  "name": "echohub-alexa-sdk",
+  "repository": {
+    "type": "git",
+    "url": "echohubio/echohub-alexa-sdk"
+  },
+  "scripts": {
+    "build": "webpack",
+    "lint": "eslint .",
+    "postversion": "git push",
+    "prepublish": "yarn run build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "version": "vi CHANGELOG.md && git add CHANGELOG.md"
+  },
+  "version": "1.0.0"
+}
