@@ -34,8 +34,7 @@ class EchoHubApi {
         },
         body: payload,
       },
-    )
-      .catch(err => ({ errorType: 'got', errorMsg: err }));
+    ).catch(err => ({ errorType: 'got', errorMsg: err }));
 
     const promiseTimeout = new PromiseChainTimeoutRejection(this.context.getRemainingTimeInMillis() - 500);
 
