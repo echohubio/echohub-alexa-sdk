@@ -3,8 +3,6 @@
 This library is intended to be used when writing an Alexa Skill targeted at
 EchoHub users.
 
-TODO: Add docs here
-
 ## Installation
 
 ```
@@ -71,7 +69,7 @@ This will run the tests, update the version, create a git tag for the version, p
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/echohubio/ehcohub-alexa-sdk. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/echohubio/echohub-alexa-sdk. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](contributor-covenant.org) code of conduct.
 
 ## License
 
