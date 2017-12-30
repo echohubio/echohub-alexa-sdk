@@ -32,7 +32,6 @@
   ],
   "license": "ISC",
   "main": "dist/index.js",
-  "module": "src/index.js",
   "name": "echohub-alexa-sdk",
   "repository": {
     "type": "git",
@@ -46,5 +45,5 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "version": "vi CHANGELOG.md && git add CHANGELOG.md"
   },
-  "version": "1.0.2"
+  "version": "1.0.3"
 }
